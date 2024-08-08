@@ -31,5 +31,6 @@ lspconfig.gopls.setup {
 }
 
 lspconfig.pylsp.setup {}
+lspconfig.svelte.setup {}
 --
 -- lspconfig.pyright.setup { blabla}
