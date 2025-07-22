@@ -1,6 +1,6 @@
 require("moritz157")
 
-vim.lsp.enable({ 'luals', 'gopls', 'angularls', 'eslint', 'ts_ls', 'phpactor' })
+vim.lsp.enable({ 'luals', 'gopls', 'angularls', 'eslint', 'ts_ls', 'phpactor', 'sqruff' })
 
 vim.cmd[[set completeopt+=menuone,noselect,popup]]
 vim.api.nvim_create_autocmd('LspAttach', {
